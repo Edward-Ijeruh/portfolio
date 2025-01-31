@@ -13,23 +13,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Frontend Developer Portfolio',
+	title: '[Your Name] - Frontend Developer',
 	description:
-		'Professional portfolio showcasing frontend development expertise, projects, and technical skills. Built with modern web technologies focusing on performance and user experience.',
-	keywords: ['Frontend Developer', 'Web Developer', 'React', 'Next.js', 'TypeScript', 'Portfolio'],
-	authors: [{ name: 'Your Name' }],
-	creator: 'Your Name',
+		'Welcome to my portfolio! I am a passionate frontend developer specializing in creating beautiful, responsive, and user-centric web applications. With expertise in modern JavaScript frameworks and UI/UX principles, I transform designs into seamless interactive experiences.',
+	keywords: [
+		'Frontend Developer',
+		'Web Developer',
+		'React Developer',
+		'Next.js',
+		'TypeScript',
+		'JavaScript',
+		'UI/UX',
+		'Responsive Design',
+		'Web Animation',
+		'Modern Web Development',
+		'CSS Expert',
+		'Performance Optimization',
+		'Web Accessibility',
+		'Component Design',
+		'[Your Name]',
+	],
+	authors: [{ name: '[Your Name]' }],
+	creator: '[Your Name]',
 	openGraph: {
-		title: 'Frontend Developer Portfolio',
-		description: 'Professional portfolio showcasing frontend development expertise and projects.',
+		title: '[Your Name] - Frontend Developer Portfolio',
+		description: 'Passionate frontend developer crafting beautiful and interactive web experiences. Explore my projects and frontend development expertise.',
 		url: 'https://your-domain.com',
-		siteName: 'Frontend Portfolio',
+		siteName: '[Your Name] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Frontend Developer Portfolio',
+				alt: '[Your Name] - Frontend Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -37,14 +53,21 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Frontend Developer Portfolio',
-		description: 'Professional portfolio showcasing frontend development expertise and projects.',
+		title: '[Your Name] - Frontend Developer',
+		description: 'Passionate frontend developer crafting beautiful and interactive web experiences. Explore my projects and frontend development expertise.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
 		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
 	},
 };
 
