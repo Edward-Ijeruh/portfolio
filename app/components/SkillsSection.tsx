@@ -1,21 +1,27 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const skills = [
-	{ skill: 'React/Next.js', level: 95 },
-	{ skill: 'TypeScript', level: 90 },
-	{ skill: 'UI/UX Design', level: 85 },
-	{ skill: 'CSS/Sass/Tailwind', level: 95 },
-	{ skill: 'JavaScript', level: 90 },
-	{ skill: 'Responsive Design', level: 95 },
+	{ skill: "React/Next.js", level: 90 },
+	{ skill: "TypeScript", level: 90 },
+	{ skill: "UI/UX Design", level: 80 },
+	{ skill: "CSS/Sass/Tailwind", level: 90 },
+	{ skill: "JavaScript/TypeScript", level: 85 },
+	{ skill: "Accessibility & Performance", level: 95 },
+	{ skill: "RESTful API integration", level: 85 },
 ];
 
 export default function SkillsSection() {
 	return (
-		<section className="py-20 px-4 bg-gray-900/50">
-			<div className="max-w-4xl mx-auto">
-				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-12 text-center">
+		<section id="skills" className="py-20 px-4 bg-gray-900/50">
+			<div className="max-w-4xl mx-auto px-6 md:px-2 lg:px-0">
+				<motion.h2
+					initial={{ opacity: 0 }}
+					whileInView={{ opacity: 1 }}
+					viewport={{ once: true }}
+					className="text-3xl font-bold mb-12 text-center"
+				>
 					Technical Skills
 				</motion.h2>
 
@@ -38,7 +44,7 @@ export default function SkillsSection() {
 									initial={{ width: 0 }}
 									whileInView={{ width: `${item.level}%` }}
 									viewport={{ once: true }}
-									transition={{ duration: 1, ease: 'easeOut' }}
+									transition={{ duration: 1, ease: "easeOut" }}
 									className="h-full bg-gradient-to-r from-blue-500 to-purple-500"
 								/>
 							</div>
