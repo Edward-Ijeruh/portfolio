@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 
 const skills = [
-	{ skill: "React/Next.js", level: 90 },
-	{ skill: "TypeScript", level: 90 },
+	{ skill: "React/Next.js", level: 85 },
+	{ skill: "TypeScript", level: 85 },
 	{ skill: "UI/UX Design", level: 80 },
 	{ skill: "CSS/Sass/Tailwind", level: 90 },
-	{ skill: "JavaScript/TypeScript", level: 85 },
-	{ skill: "Accessibility & Performance", level: 95 },
+	{ skill: "JavaScript", level: 85 },
+	{ skill: "Accessibility & Performance", level: 90 },
 	{ skill: "RESTful API integration", level: 85 },
 ];
 
