@@ -113,7 +113,7 @@ export default function ContactSection() {
 								</svg>
 							</motion.a>
 							<motion.a
-								href="bit.ly/44uukLg"
+								href="https://www.linkedin.com/in/edward-ijeruh-074a2a322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 								target="_blank"
 								whileHover={{ scale: 1.05 }}
 								whileTap={{ scale: 0.95 }}
