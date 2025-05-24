@@ -5,23 +5,23 @@ import { motion } from "framer-motion";
 
 const projects = [
 	{
-		title: "Taste Havenn",
+		title: "TasteHaven",
 		description:
-			"A stylish food blog showcasing recipes and culinary delights.",
+			"A fast food website.",
 		image: "/tastehaven .jpg", 
 		tags: ["React", "Tailwind CSS", "TypeScript", "Netlify"],
 		url: "https://tastehavenn.netlify.app",
 	},
 	{
-		title: "Film Horizonn",
-		description: "A sleek platform to explore movies and film reviews.",
+		title: "FilmHorizon",
+		description: "A platform to explore movies and film reviews and information.",
 		image: "/filmhorizon.jpg", 
 		tags: ["React", "JavaScript", "Tailwind CSS", "Netlify"],
 		url: "https://filmhorizonn.netlify.app",
 	},
 	{
 		title: "Get Fullstacked",
-		description: "A comprehensive resource hub for full-stack web development.",
+		description: "A mentorship recruitement page for full-stack web development.",
 		image: "/gfs.jpg", 
 		tags: ["Next.js", "React", "Tailwind CSS", "Vercel"],
 		url: "https://getfullstacked.dev",
