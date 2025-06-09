@@ -27,11 +27,11 @@ const projects = [
 		url: "https://getfullstacked.dev",
 	},
 	{
-		title: "MinInk",
-		description: "A user-authenticated blogging platform where users can create, edit, and manage posts with image uploads and a modern UI.",
-		image: "/mindink.jpg", 
-		tags: ["Next.js", "React", "Tailwind CSS"],
-		url: "https://mind-ink.netlify.app/",
+		title: "EchoMind",
+		description: "A user-authenticated blogging platform where users can create, edit, and manage posts",
+		image: "/echomind.jpg", 
+		tags: ["Next.js", "React", "Tailwind CSS", "Netlify"],
+		url: "https://echo-mindd.netlify.app/",
 	},
 ];
 
